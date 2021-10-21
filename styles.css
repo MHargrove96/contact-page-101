@@ -1,0 +1,134 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+body, html{
+    height: auto;
+    background-image: url(https://images.unsplash.com/45/PlEgx5PSoiiJOmnE2izQ_NYC%20skyline%20empire-1.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-content{
+    align-self: start;
+    margin-top: 50px;
+}
+
+.reach-out{
+    margin: auto;
+    text-align: center;
+    height: 300px;
+    display: grid;
+
+}
+
+.contact-message{
+    font-size: 18px;
+    text-align: center;
+}
+
+#name{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid lightgray;
+
+}
+
+#email{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid lightgray;
+}
+
+#message{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid lightgray;
+    resize: none;
+}
+
+
+#phone{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid lightgray;
+    resize: none;
+}
+
+.check-box{
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+    grid-column: 2 /3;
+    grid-row: 3 / 4;
+}
+
+.birthday-wish{ 
+   width: 400px;
+   /* background: linear-gradient(20deg, red, orange, yellow, green, violet, red); */
+   background-color: lightslategray;
+   margin: auto;
+   margin-top: 25px;
+   display: grid;
+   justify-items: center;
+}
+
+.birthday-message{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+   
+}
+#birthday{
+    text-align: center;
+    margin: auto;
+}
+.request-contact{
+    text-align: center;
+}
+
+.end{
+ display: grid; 
+ justify-items: center;
+ margin-top: 25px;
+}
+
+

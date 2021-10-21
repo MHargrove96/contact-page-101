@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact Me.</title>
+</head>
+<body>
+  <header>
+      <h1 class="title">Contact Me.</h1>
+  </header>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <main class="main-container">
+        <div class="reach-out">
+      <p class="contact-message"> If you have any comments or questions simply reach out to me 
+        with your Name, Email and a breif message and I will get in contact with you as soon as possible.
+      </p>
+      <div class="name-input">
+        <label for="name">Name</label>
+        <input  type="text" name="name" id="name" >
+      </div>
+
+      <div class="email-input">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" >
+      </div>
+
+      <div class="message-me">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="1" cols="19" minlength="20" maxlength="500" ></textarea>
+      </div>
+      <p class="phone-op">If you would prefer a phone call simply leave your phone number below.</p>
+      <div>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+      </div> 
+    </div>
+   
+   
+    <div class="check-box">
+       <p class="found-how">How did you hear about me?</p> 
+        <div> 
+          <div>
+          <label for="linkedin">LinkedIn</label>
+          <input type="checkbox" name="linkedin" id="linkedin">
+        </div>
+          <label for="classmate">Classmate.</label>
+          <input type="checkbox" name="classmate" id="classmate">
+        </div>
+        <div>
+          <label for="resume-submission">Resume Submission</label>
+          <input type="checkbox" name="resume-submission" id="resume-submission">
+        </div>
+       
+        <div>
+          <label for="school-rec">Coding Academy Rec</label>
+          <input type="checkbox" name="school-rec" id="school-rec">
+        </div>
+     </div>
+   
+
+
+      <div class="birthday-wish">
+        <p class="birthday-message">Hey! Happy Birthday! Oh not your birthday yet well no worries, just let me know when
+           it is below and a birthday suprise may be waiting for you when it is.</p>  
+        <input type="date" id="birthday" name="birthday">
+           <p class="request-contact">and let me know you want me to reach back out to you.</p>
+           <label for="yes">YES</label>
+           <input type="radio" id="yes" name="contact-back">
+           <label for="no">NO</label>
+           <input type="radio" id="no" name="no-contact-back">
+      </div>
+     
+      <div class="end">
+        <button type="reset" id="reset">Reset</button>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+</main>
+</form> 
+</body>
+</html>
